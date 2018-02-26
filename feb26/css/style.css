@@ -1,0 +1,32 @@
+body {
+  background-color: red;
+  color: yellow;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav {
+  border: 10px dashed green;
+}
+
+ul {
+  background-color: blue;
+}
+
+main {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+article {
+  width: 75%;
+}
+
+aside {
+  width: 25%;
+}
+
+section {
+  width: 100px;
+  background-color: magenta;
+}
+/*# sourceMappingURL=style.css.map */
