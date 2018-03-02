@@ -1,0 +1,59 @@
+body {
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+header {
+  padding: 10vw 2vw;
+  background-color: darkturquoise;
+  text-align: center;
+  color: white;
+}
+
+a:link {
+  color: inherit;
+}
+
+a:visited {
+  color: lime;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: purple;
+}
+
+a {
+  color: inherit;
+}
+
+header div {
+  width: 35%;
+  padding: 5vw;
+  border-width: 3px 1px;
+  border-style: double solid;
+  border-color: whitesmoke;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 100;
+}
+
+h2 {
+  font-size: 1.75vw;
+  font-weight: 100;
+  margin: 45px;
+}
+
+.btn {
+  background-color: #141414;
+  color: whitesmoke;
+  padding: 15px 20px;
+  opacity: .25;
+}
+/*# sourceMappingURL=template.css.map */

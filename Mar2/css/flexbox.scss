@@ -1,0 +1,25 @@
+html {
+    background-color: aqua;
+}
+section {
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    // flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: magenta;
+    align-content: flex-end;
+}
+div {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    margin: 5px;
+}
+div:nth-child(4){
+    align-self: flex-start;
+    background-color: darkcyan;
+}
+div:nth-child(3){order: 1;}
+div:nth-child(6){order: 2;}
