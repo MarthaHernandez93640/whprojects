@@ -1,0 +1,54 @@
+html {
+  font-family: 'Poiret One', cursive;
+  background-image: url("/myportfolio/img/stars.jpg");
+  background-size: cover;
+}
+
+div {
+  color: lavender;
+  border: solid;
+  display: inline;
+  justify-content: space-between;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: #e0e0e0;
+  font-size: 48px;
+  border-bottom: solid;
+  border-width: 1px;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  color: #e0e0e0;
+  border-bottom: solid;
+  border-width: 1px;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  color: #292c2e;
+  font-size: 24px;
+  color: #e0e0e0;
+}
+
+img {
+  margin: 0;
+  padding: 90pt;
+  height: 30;
+  width: 80%;
+}
+
+#first {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#second {
+  padding-top: 0;
+}
+/*# sourceMappingURL=style.css.map */

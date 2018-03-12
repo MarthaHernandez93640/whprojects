@@ -1,0 +1,55 @@
+$black: hsl(204, 6%, 17%);
+html{
+    font-family: 'Poiret One', cursive;
+    background-image: url('/myportfolio/img/stars.jpg');
+    background-size: cover; 
+}
+
+body {
+
+}
+div {
+
+    color: lavender;
+    border: solid;
+    display: inline;
+    justify-content: space-between;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    color: hsl(0,0%, 88%);
+    font-size: 48px;
+    border-bottom:  solid;
+    border-width: 1px;
+}
+h2 {
+    display: flex;
+    justify-content: center;
+    color: hsl(0,0%, 88%);
+    border-bottom: solid;
+    border-width: 1px;
+}
+p {
+    display: flex;
+    justify-content: center;
+    color: hsl(204, 6%, 17%);
+    font-size: 24px;
+    color: hsl(0,0%, 88%);
+}
+
+img {
+    margin: 0;
+    padding: 90pt;
+    height: 30;
+    width: 80%;
+}
+
+#first {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#second {
+    padding-top: 0;
+}
