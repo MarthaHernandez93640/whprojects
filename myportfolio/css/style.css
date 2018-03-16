@@ -1,6 +1,6 @@
 html {
   font-family: 'Poiret One', cursive;
-  background-image: url("/myportfolio/img/kids.jpg");
+  background-image: url("/myportfolio/img/star.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -8,12 +8,18 @@ html {
 }
 
 body {
-  padding: 0;
   margin: 0;
+  padding: 0;
+}
+
+section {
+  margin: 0;
+  padding: 0;
+  width: 90%;
 }
 
 div {
-  margin: 45px;
+  margin: 70px;
   color: lavender;
   display: inline;
   border: #e0e0e0;
@@ -33,6 +39,7 @@ li {
 h1 {
   display: flex;
   justify-content: center;
+  text-align: center;
   color: #e0e0e0;
   font-size: 48px;
   border-bottom: solid;
@@ -43,17 +50,18 @@ h2 {
   margin: 35px;
   display: inline-block;
   justify-content: space-evenly;
-  color: #e0e0e0;
+  color: white;
   border-bottom: solid;
   border-width: 1px;
 }
 
 p {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   align-content: center;
+  background-color: white;
   font-size: 24px;
-  color: #e0e0e0;
+  color: #292c2e;
 }
 
 a {
@@ -61,12 +69,31 @@ a {
 }
 
 #bio {
+  margin-top: 70px;
+  padding: 0px;
+  display: flex;
   text-align: center;
+  background-color: white;
 }
 
 #icons {
   padding: 0;
   margin: 0;
   display: flex;
+}
+
+#first {
+  width: 90%;
+  justify-content: space-evenly;
+}
+
+#center {
+  background-color: white;
+}
+
+#end {
+  display: flex;
+  align-content: center;
+  color: #292c2e;
 }
 /*# sourceMappingURL=style.css.map */
