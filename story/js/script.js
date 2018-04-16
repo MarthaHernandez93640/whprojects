@@ -9,3 +9,4 @@ console.log(story);
     }else{
         console.log('they go home');
     }
+
