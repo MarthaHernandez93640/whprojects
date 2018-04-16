@@ -1,6 +1,6 @@
 html {
   font-family: 'Poiret One', cursive;
-  background-image: url("/myportfolio/img/star.jpg");
+  background-image: url("/img/star.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -10,6 +10,10 @@ html {
 body {
   margin: 0;
   padding: 0;
+}
+
+nav {
+  color: white;
 }
 
 section {

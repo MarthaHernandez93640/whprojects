@@ -115,17 +115,29 @@
 //loops 
 //arrays
 
-function getstory(){
-    var story = prompt('An old lady lived in a shoe');
-    if(story=='ok'){
-        console.log('it smelled like feet');
-    }else if(story=='no'){
-        console.log('it didnt smell bad');
-    }else{
-        console.log('she wasnt happy');
-    }
-}
-getstory();
 
 //var story=["An old lady lived in a shoe"];
 //console.log(story);
+
+  // var story = prompt('An old lady lived in a shoe');
+    // if(story=='ok'){
+    //     console.log('it smelled like feet');
+    // }else if(story=='no'){
+    //     console.log('it didnt smell bad');
+    // }else{
+    //     console.log('she wasnt happy');
+    // }
+
+
+// for(var i = 0; i < spans.length; i++){
+//     switch(spans[i].className){
+//         case '':
+//             spans[i].textContent=''[getrandumnum(''.length)];
+//             break;
+//         default:
+//     }
+// }
+
+// function getrandumnum(num){
+//     return Math.floor(Math.random() * num);
+// }

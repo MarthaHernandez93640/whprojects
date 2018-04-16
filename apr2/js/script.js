@@ -40,7 +40,7 @@
 // for (var i = 0; i < 7; i++){
 //     console.log[i];
 // }
-// loops throught each letter logging in to the browser
+// loops through each letter logging in to the browser
 
 // function func1(){}
     // func1(passUsersName){}
