@@ -1,1 +1,16 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+html {
+  background-color: purple;
+}
+
+H1 {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  width: 400px;
+}
+/*# sourceMappingURL=style.css.map */
