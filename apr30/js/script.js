@@ -10,13 +10,15 @@ console.log("You are at a Godsmack concert, and you hear this lyric 'Now I've to
 var userAnswer = prompt("Do you want to race Sully on stage?");
 
 console.log("Suddenly, Sully stops and says, 'Who wants to race me?'");
-    if('yes'){
+    if(userAnswer=='yes'){
     console.log("You and Sully start racing. It's neck and neck! You win by a landslide!");
-    }else{
+    }else if(userAnswer=='no'){
     console.log("Oh no! Sully shakes his head and sings 'I... stand alone! Inside... I stand alone!'");
+    }else{
+        console.log("'we hear crickets'")
     }
 
-var feedback = prompt("can you rate my game 1-10?");
+var feedback = prompt("Can you rate my game 1-10?");
     if( feedback > 8){
         console.log("Thank you! We should race at the next concert!")
     }else{
